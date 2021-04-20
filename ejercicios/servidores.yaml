@@ -1,0 +1,14 @@
+oracle1.prod.es:
+    ips:
+        - "172.17.29.87"
+    servicios:
+        - tnslsnr
+        - ssh
+
+oracle2.prod.es:
+    ips:
+        - "172.17.29.111"
+    servicios:
+        - tnslsnr
+        - ssh
+        

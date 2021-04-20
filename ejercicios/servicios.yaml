@@ -1,0 +1,18 @@
+# YAML
+# YAML ain't markup language
+#  XML
+# JSON
+# PROPERTIES
+
+# ML: Markup Language
+#   HTML, <<<SGML>>>
+
+# GNU | 386BSD (AT&T)
+# GNU is not UNIX
+
+tnslsnr: 
+    - 1521
+ssh: 
+    - 22
+web:
+    - 80

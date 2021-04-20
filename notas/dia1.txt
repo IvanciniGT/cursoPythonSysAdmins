@@ -1,0 +1,78 @@
+Lenguaje python:
+- Sintasis
+- Gramatica
+- Semantica
+
+Programas / Software:
+- Sistema Operativo
+---------------------
+- Aplicación    Programa que se ejecuta en primer plano, de forma indefinida en 
+                el tiempo y que requiere interacción con un usuario
+                -----------------------------------------------------------------
+- Servicio      Programa que se ejecuta en segundo plano, de forma indefinida en 
+                el tiempo y que no requiere interacción con un usuario.
+                Lo que hace es contestar peticiones de otros programas.
+- Demonio       Programa que se ejecuta en segundo plano, de forma indefinida en 
+                el tiempo y que no requiere interacción con un usuario.
+                Lo que hace no es contestar peticiones de otros programas.
+                El sabe lo que tiene que hacer y lo hará, cuando toque.
+- Script        Programa que se ejecuta en primer/segundo plano.
+                No de forma indefinida en el tiempo.
+                No requiere interacción con un usuario ni con otros programas.
+                Lo que hace es ejecutar una serie de instrucciones de principio a fin.
+
+
+Características de Python:
+- Interpretado
+    - Cython: Tiene algunas limitaciones. Solo es capaz de usar 1 CPU del ordenador
+    - Jython
+    - Pypy
+- De tipado dinámico
+- 2 versiones en python: 2 y 3
+- Sintaxis:
+    Utilizar el sangrado para denotar estructura en el código
+    
+    
+Compilados vs Interpretados
+Lenguajes de tipado estatico frente a lenguajes de tipado dinamico.
+    tipado estatico: int numero
+    tipado estatico: String texto
+    tipado dinamico: numero=3
+    tipado dinamico: numero="hola"
+
+Automatización: Devops
+Administradores de sistemas >>>> Administraban sistemas >>> Escribir programas que administren sistemas
+Testers                     >>>> Probar software        >>> Escribir programas que prueban sistemas
+
+
+
+
+def factorial(numero):
+    if numero==0:
+        return 1 
+    return numero*factorial(numero-1)
+
+print(factorial(5))
+
+---------------------
+                                PARAMETRO     LINEA
+FACTORIAL                           5            53 >>> 120     ^
+    FACTORIAL                       4            53 >>> 24      ^
+        FACTORIAL                   3            53 >>> 6       ^
+            FACTORIAL               2            53 >>> 2       ^
+                FACTORIAL           1            53 >>> 1       ^
+                   FACTORIAL        0            52 >>> 1       ^
+
+5!=5*4!                                             120
+    4!=4*3!                                     24
+        3!=3*2!                             6
+            2!=2*1!                     2
+                1!=1*0! > 1!=1*1 = 1
+                    0!=1
+                   
+Todo hilo tiene asociado un stack de funciones abiertas.
+Ese stack tiene un tamaño máximo: Si me paso de funciones... tengo un stackoverflow: Desbordamiento de pila
+                   
+                   
+        
+    
