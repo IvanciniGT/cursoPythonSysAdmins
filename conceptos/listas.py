@@ -55,3 +55,11 @@ servicios={"tnslsnr": lista_puertos_oracle, "ssh": lista_puertos_ssh}
 lista= {  "tnslsnr": [1521,999],   "ssh": [22] }
 print(lista["tnslsnr"])
 
+# Una lista es una estructura cómoda, cuando queremos hacer que cosas?
+    # Almacenar un conjunto de datos que quiero procesar de arriba a abajo
+        # Lista de la compra: Voy a comprar todos y cada uno 
+        # de los elementos que tengo el la lista
+        # Lista de tareas
+# En una tabla
+    # Almacenar un conjunto de datos que no quiero procesar de arriba a abajo a priori
+        # Quiero poder rápidamente identificar los datos de uno que tenga almacenado

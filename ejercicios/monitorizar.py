@@ -13,32 +13,31 @@ with open('servicios.yaml', 'r') as fichero_servicios:
     servicios=yaml.load(fichero_servicios, Loader=yaml.FullLoader)
 
 # CReado un listado de objetos de tipo SERVICIO
-lista_servicios_cargados=[]
+tabla_servicios_cargados={}
 for nombre_servicio in servicios:
     puertos=servicios[nombre_servicio]
-    lista_servicios_cargados.append(Servicio(nombre_servicio, puertos))
-    
+    tabla_servicios_cargados[nombre_servicio]=Servicio(nombre_servicio, puertos)
+
 # Leido el fichero YAML de servidores
 with open('servidores.yaml', 'r') as fichero_servidores:
     servidores=yaml.load(fichero_servidores, Loader=yaml.FullLoader)
-print(servidores)
 
 # Creado un listado de objetos de tipo SERVIDOR
-lista_servidores_cargados=[]
+tabla_servidores_cargados={}
 for nombre_servidor in servidores:
     informacion_del_servidor=servidores[nombre_servidor]
     ips=informacion_del_servidor["ips"]
     nombres_servicios=informacion_del_servidor["servicios"]
     
-    nombres_servicios >>>> lista de SERVICIOS
+    lista_servicios_del_servidor=[]
+    for nombre_servicio in nombres_servicios:
+        lista_servicios_del_servidor.append(tabla_servicios_cargados[nombre_servicio])
     
-    Necesito sacar los servicios de la lista de servicios cargados, 
-    cuyo nombre de servicio sea igual a uno de los nombres de servicio
-    que he leido para el servidor y que tengo dentro de la lista llamada nombres_servicios
-    
-    Servidor(nombre_servidor, ips, servicios)
-    
+    tabla_servidores_cargados[nombre_servidor]=Servidor(nombre_servidor, ips, lista_servicios_del_servidor)
+
+print(tabla_servidores_cargados)
 """
+
 
 def mostrarEstadoDeLosServicios(servidor):
     print(servidor.nombre)
@@ -56,7 +55,7 @@ def mostrarEstadoDeLosServicios(servidor):
 
 mostrarEstadoDeLosServicios(servidor_oracle_produccion_1)
 mostrarEstadoDeLosServicios(servidor_oracle_produccion_2)
-"""
+
 
 
 
@@ -83,4 +82,4 @@ Servicio? Ente  que tiene
 
 puerto? numero
 Estado? Si|No
-    
+    """

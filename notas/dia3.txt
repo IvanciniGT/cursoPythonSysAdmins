@@ -1,0 +1,73 @@
+Montar un sistema de monitorización
+Montar un sistema de pruebas
+Montar un sistema de automatización
+
+-------------------------------------
+
+Servicios - Servidores  >>>> ficheros YAML
+
+Necesitamos tener la info de los servicios y los servidores disponible dentro de python
+-------------------------------------
+ETIQUETA (variable) servicios <<<<< Objeto(valor) Diccionario
+    - clave: tnslsnr
+      valor: lista:
+        - numero: 1521
+    - clave: ssh
+      valor: lista:
+        - numero: 22
+    - clave: web
+      valor: lista:
+        - numero: 80
+-------------------------------------
+Tabla de servicios
+Nombre    Servicio
+ssh         Nombre del servicio ssh
+            Puertos 22
+            Protocolo tcp
+tnslnsr   Servicio
+            Nombre del servicio tnslsnr
+            Puertos 1521
+web       Servicio
+            Nombre del servicio web
+            Puertos 80
+-------------------------------------
+Lista de Servidores
+    Servidor
+        Nombre
+        Ips
+        EstadoDeServicios
+            OK | NOK
+            Servicio
+                Nombre
+                Puertos
+-----------------------------------
+nombre_servidor
+nombre_servicio
+puerto_servicio
+ip_servidor
+estado_servicio
+
+>>> monitorizar(lista_de_servidores)
+>>> ping(lista_de_servidores)
+
+
+{'tnslsnr': [1521], 'ssh': [22], 'web': [80]}
+
+TABLA CUTRE PYYAML <<<< Fichero YAML
+oracle1.prod.es     ips:        ['172.17.29.87']
+                    servicios:  ['tnslsnr', 'ssh']
+
+oracle2.prod.es     ips         ['172.17.29.111']
+                    servicios:  ['tnslsnr', 'ssh']
+
+        VvVVVVVVV TABLA GUAY !!!!!!!
+                                                       Servicios:
+Clave                   IPs                       Nombre        Puerto   Estado
+oracle1.prod.es         ['172.17.29.87']            tnslsnr      1521     OK
+                                                    ssh            22     NOK
+
+oracle1.prod.es         ['172.17.29.87']            tnslsnr      1521     OK
+                                                    ssh            22     OK
+Clave (Nombre del servidor)     Un objeto de tipo SERVIDOR
+oracle1.prod.es     <servidor.Servidor object at 0x7fd7fa92c9e8>
+oracle2.prod.es     <servidor.Servidor object at 0x7fd7faf56160>
