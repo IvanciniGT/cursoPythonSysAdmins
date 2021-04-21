@@ -4,45 +4,51 @@ from servidor import Servicio
 from colorama import init
 from termcolor import colored
 
-import yaml
+from servidor import cargar_servidores
+from pingueador import Pingueador
 
 init() # Inicialización de la libreria Colorama
 
-def cargar_servidores():
-    # Leido el fichero YAML de servicios
-    with open('servicios.yaml', 'r') as fichero_servicios:
-        servicios=yaml.load(fichero_servicios, Loader=yaml.FullLoader)
-    
-    # CReado un listado de objetos de tipo SERVICIO
-    tabla_servicios_cargados={}
-    for nombre_servicio in servicios:
-        puertos=servicios[nombre_servicio]
-        tabla_servicios_cargados[nombre_servicio]=Servicio(nombre_servicio, puertos)
-    
-    # Leido el fichero YAML de servidores
-    with open('servidores.yaml', 'r') as fichero_servidores:
-        servidores=yaml.load(fichero_servidores, Loader=yaml.FullLoader)
-    
-    # Creado un listado de objetos de tipo SERVIDOR
-    tabla_servidores_cargados={}
-    for nombre_servidor in servidores:
-        informacion_del_servidor=servidores[nombre_servidor]
-        ips=informacion_del_servidor["ips"]
-        nombres_servicios=informacion_del_servidor["servicios"]
-        
-        lista_servicios_del_servidor=[]
-        for nombre_servicio in nombres_servicios:
-            lista_servicios_del_servidor.append(tabla_servicios_cargados[nombre_servicio])
-        
-        tabla_servidores_cargados[nombre_servidor]=Servidor(nombre_servidor, ips, lista_servicios_del_servidor)
-    return tabla_servidores_cargados
-    
-    
 
+
+# PASO 1: Cargar servidores
 tabla_servidores=cargar_servidores()
-print(tabla_servidores)
 
+# Paso2: Crear pingeadores
+pingueadores=[]
+for servidor in tabla_servidores.values():
+    pingo=Pingueador(servidor, 3)
+    pingueadores.append(pingo)
+    # Paso 3: Empezar los pings
+    pingo.pinguea()
     
+# Paso 4.... esperar hasta el infinto o 
+# hasta el usuario diga que ya no quiere seguir
+input("Pulsa Enter para parar de pinguear")
+for pingo in pingueadores:
+    pingo.deja_de_pinguear()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 """
 
 
