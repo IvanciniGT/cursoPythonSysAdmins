@@ -71,3 +71,7 @@ oracle1.prod.es         ['172.17.29.87']            tnslsnr      1521     OK
 Clave (Nombre del servidor)     Un objeto de tipo SERVIDOR
 oracle1.prod.es     <servidor.Servidor object at 0x7fd7fa92c9e8>
 oracle2.prod.es     <servidor.Servidor object at 0x7fd7faf56160>
+
+tnslsnr:            <servidor.Servicio object at 0x7f721073a4e0
+ssh:                <servidor.Servicio object at 0x7f7210260ac8>
+web:                <servidor.Servicio object at 0x7f7210260c18>

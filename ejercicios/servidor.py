@@ -7,7 +7,17 @@ class Servidor:
         self.estados_de_servicios=[]
         for servicio in servicios:
             self.estados_de_servicios.append(  EstadoDeServicio(self, servicio, False)  )
+
+    def __str__(self):
+        visualizacion= "Servidor: %s\n" % (self.nombre)
+        visualizacion+="   > IPs: %s\n" % (self.ips)
+        visualizacion+="   > Estado de los servicios:\n"
+        for estado_servicio in self.estados_de_servicios:
+            visualizacion+="      %s\n" % (estado_servicio) 
+        return visualizacion
     
+    def __repr__(self):
+        return "\n"+self.__str__()
 
 class EstadoDeServicio:
     
@@ -15,6 +25,11 @@ class EstadoDeServicio:
         self.servicio=servicio
         self.servidor=servidor
         self.estado=estado
+
+    def __str__(self):
+        visualizacion=  "%s\n" % (self.servicio)
+        visualizacion+= "%s\n" % ("OK" if self.estado else "NOK")
+        return visualizacion
  
 class Servicio:
     
@@ -22,9 +37,6 @@ class Servicio:
         self.nombre=nombre
         self.puertos=puertos
 
-#servicio_ssh = Servicio( 'ssh' , [22] )
-#numero       = 4
-#texto        = "hola"
-
-#servicio_ssh.nombre
-#servicio_ssh.puertos
+    def __str__(self):
+        return "Servicio: %s\n > Puertos: %s" % (self.nombre, self.puertos)
+        

@@ -35,7 +35,12 @@ for nombre_servidor in servidores:
     
     tabla_servidores_cargados[nombre_servidor]=Servidor(nombre_servidor, ips, lista_servicios_del_servidor)
 
+for servidor in tabla_servidores_cargados.values():
+    print(servidor)
+
 print(tabla_servidores_cargados)
+    
+    
 """
 
 
