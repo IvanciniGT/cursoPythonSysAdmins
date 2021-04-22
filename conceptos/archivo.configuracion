@@ -1,0 +1,7 @@
+servidor:
+    nombre: miserv1.prod
+    ips:
+        - 192.168.1.1
+        - 99.99.99.99
+    sistema: windows 
+    sistema: 7 

@@ -32,3 +32,5 @@ print( "Hola %-10s. Cuantos años tienes? Tengo %-2d años." % valores)
 valores=("Mariete", 4)
 print( "Hola %-10s. Cuantos años tienes? Tengo %-2d años." % valores) 
 
+texto="HOLA AMIGO MIO"
+print(texto.index(" "))

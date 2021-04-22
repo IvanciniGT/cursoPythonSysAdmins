@@ -1,0 +1,6 @@
+servidor:
+    nombre: {{ nombre_servidor | upper | lower }}
+    ips:{% for ip in ips %}
+        - {{ ip }}{% endfor %}
+    sistema: {{ sistema_operativo | upper | lower }} 
+    sistema: {{ cpus| default(4) }} 

@@ -63,3 +63,8 @@ print(lista["tnslsnr"])
 # En una tabla
     # Almacenar un conjunto de datos que no quiero procesar de arriba a abajo a priori
         # Quiero poder rápidamente identificar los datos de uno que tenga almacenado
+
+
+diccionario={}
+print(diccionario["HOLA"])
+print(diccionario.get("HOLA"))
