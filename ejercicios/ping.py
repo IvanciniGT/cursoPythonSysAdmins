@@ -26,3 +26,12 @@ def ping(host):
         # Es decitr, se llama al comando, se espera a que termine.
         # Al terminar, devuelve el código de salida del comando.
     return codigo_salida==0
+
+def ping_servidor(servidor):
+    for ip in servidor.ips:
+        ping_correcto=ping(ip)
+        if not ping_correcto:
+            print(
+                "No he podido hacer ping al servidor: %s, en su IP: %s" 
+                    % (servidor.nombre, ip) 
+                )

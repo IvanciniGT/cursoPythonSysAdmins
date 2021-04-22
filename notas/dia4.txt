@@ -1,0 +1,19 @@
+Paradigmas de la programación
+-----------------------------
+Imperativo: BASIC 
+Procedural - Orientado a procedimientos: BASH, C
+    ¿Qué es un procedimiento? Es una función.
+Programación Funcional. LISP
+    Las funciones se convierten en ciudadanos de primer nivel.
+    Una función se puede referencias desde una variable
+Orientado a Objetos - JAVA, C++
+    Yo puedo definir mis propios tipos de variables personalizados (clases),
+    Que son capaces de aportar su propia LOGICA (tener sus propias funciones)
+-----------------
+
+
+Paso 1:
+    Crear una funcion llamada: comprobar_puerto
+        subprocess <<< nc -vz HOST PUERTO
+Paso 2:
+    Pingueador >>>> ComprobardorDePuertos

@@ -5,28 +5,32 @@ from colorama import init
 from termcolor import colored
 
 from servidor import cargar_servidores
-from pingueador import Pingueador
+from tester import Tester
+from ping import ping_servidor
+from puertos import comprobacionPuertos
 
 init() # Inicialización de la libreria Colorama
-
-
 
 # PASO 1: Cargar servidores
 tabla_servidores=cargar_servidores()
 
 # Paso2: Crear pingeadores
-pingueadores=[]
+testers=[]
 for servidor in tabla_servidores.values():
-    pingo=Pingueador(servidor, 3)
-    pingueadores.append(pingo)
-    # Paso 3: Empezar los pings
-    pingo.pinguea()
+    # Tester de monitorización de IPS
+    tester=Tester(servidor, 3, ping_servidor)
+    testers.append(tester)
+    tester.testea()
+    # Tester de monitorización de Servicios
+    tester=Tester(servidor, 3, comprobacionPuertos)
+    testers.append(tester)
+    tester.testea()
     
 # Paso 4.... esperar hasta el infinto o 
 # hasta el usuario diga que ya no quiere seguir
-input("Pulsa Enter para parar de pinguear")
-for pingo in pingueadores:
-    pingo.deja_de_pinguear()
+input("Pulsa Enter para parar de monitorizar")
+for tester in testers:
+    tester.deja_de_testear()
 
 
 
