@@ -17,6 +17,6 @@ mi_ordenador:
         - "127.0.0.1"
         - "172.31.7.110"
     servicios:
-        - tnslsnr
-        - ssh
+        - tnslsnr   # 1521
+        - ssh       # 22
         
