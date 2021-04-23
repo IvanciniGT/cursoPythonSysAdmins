@@ -1,0 +1,250 @@
+1619163378282	geckodriver	INFO	Listening on 127.0.0.1:43259
+1619163378290	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile3AElZN"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libEGL missing
+[GFX1-]: glxtest: No visuals found
+[GFX1-]: glxtest: libEGL missing
+1619163379206	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile3AElZN/search.json.mozlz4", (void 0)))
+1619163380983	Marionette	INFO	Listening on port 40207
+1619163381023	Marionette	WARN	TLS certificate errors will be ignored for this session
+1619163395245	geckodriver	INFO	Listening on 127.0.0.1:43517
+1619163395254	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilehOoBgc"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libEGL missing
+[GFX1-]: glxtest: No visuals found
+[GFX1-]: glxtest: libEGL missing
+1619163395935	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilehOoBgc/search.json.mozlz4", (void 0)))
+1619163397584	Marionette	INFO	Listening on port 40443
+1619163397689	Marionette	WARN	TLS certificate errors will be ignored for this session
+1619163398434	Marionette	INFO	Stopped listening on port 40443
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: resource://gre/modules/osfile/osfile_async_front.jsm, line 432: Error: OS.File has been shut down. Rejecting post to remove
+JavaScript error: resource://gre/modules/osfile/osfile_async_front.jsm, line 432: Error: OS.File has been shut down. Rejecting post to remove
+JavaScript error: resource://gre/modules/psm/RemoteSecuritySettings.jsm, line 789: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIXPCComponents_Utils.reportError]
+1619165711002	geckodriver	INFO	Listening on 127.0.0.1:55497
+1619165711028	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilelBqQCr"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libEGL missing
+[GFX1-]: glxtest: No visuals found
+[GFX1-]: glxtest: libEGL missing
+1619165711596	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilelBqQCr/search.json.mozlz4", (void 0)))
+1619165713478	Marionette	INFO	Listening on port 43357
+1619165713560	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: NetworkError: A network error occurred.
+1619165851173	geckodriver	INFO	Listening on 127.0.0.1:34019
+1619165851186	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilerfUFvm"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libEGL missing
+[GFX1-]: glxtest: No visuals found
+[GFX1-]: glxtest: libEGL missing
+1619165852088	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilerfUFvm/search.json.mozlz4", (void 0)))
+1619165853901	Marionette	INFO	Listening on port 38741
+1619165854020	Marionette	WARN	TLS certificate errors will be ignored for this session
+1619165863734	geckodriver	INFO	Listening on 127.0.0.1:56049
+1619165863754	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileBfFRwD"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libEGL missing
+[GFX1-]: glxtest: No visuals found
+[GFX1-]: glxtest: libEGL missing
+1619165864313	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileBfFRwD/search.json.mozlz4", (void 0)))
+1619165866116	Marionette	INFO	Listening on port 42525
+1619165866183	Marionette	WARN	TLS certificate errors will be ignored for this session
+1619165867651	Marionette	INFO	Stopped listening on port 42525
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: resource://gre/modules/psm/RemoteSecuritySettings.jsm, line 789: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIXPCComponents_Utils.reportError]
+1619166032320	geckodriver	INFO	Listening on 127.0.0.1:50777
+1619166032328	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileUGQC6X"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libEGL missing
+[GFX1-]: glxtest: No visuals found
+[GFX1-]: glxtest: libEGL missing
+1619166033044	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileUGQC6X/search.json.mozlz4", (void 0)))
+1619166035158	Marionette	INFO	Listening on port 42071
+1619166035269	Marionette	WARN	TLS certificate errors will be ignored for this session
+1619166072331	geckodriver	INFO	Listening on 127.0.0.1:51065
+1619166072344	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileRiBN4c"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libEGL missing
+[GFX1-]: glxtest: No visuals found
+[GFX1-]: glxtest: libEGL missing
+1619166072849	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileRiBN4c/search.json.mozlz4", (void 0)))
+1619166074771	Marionette	INFO	Listening on port 44639
+1619166074876	Marionette	WARN	TLS certificate errors will be ignored for this session
+1619166076253	Marionette	INFO	Stopped listening on port 44639
+JavaScript error: resource://gre/modules/psm/RemoteSecuritySettings.jsm, line 789: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIXPCComponents_Utils.reportError]
+1619166158191	geckodriver	INFO	Listening on 127.0.0.1:34471
+1619166158199	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilerY68q1"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libEGL missing
+[GFX1-]: glxtest: No visuals found
+[GFX1-]: glxtest: libEGL missing
+1619166158782	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilerY68q1/search.json.mozlz4", (void 0)))
+1619166160751	Marionette	INFO	Listening on port 34433
+1619166160840	Marionette	WARN	TLS certificate errors will be ignored for this session
+1619166178845	geckodriver	INFO	Listening on 127.0.0.1:37465
+1619166178852	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileZfpykT"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libEGL missing
+[GFX1-]: glxtest: No visuals found
+[GFX1-]: glxtest: libEGL missing
+1619166179352	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileZfpykT/search.json.mozlz4", (void 0)))
+1619166181110	Marionette	INFO	Listening on port 37637
+1619166181190	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/psm/RemoteSecuritySettings.jsm, line 789: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIXPCComponents_Utils.reportError]
+1619166363762	geckodriver	INFO	Listening on 127.0.0.1:56811
+1619166363786	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilelnTcNH"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libEGL missing
+[GFX1-]: glxtest: No visuals found
+[GFX1-]: glxtest: libEGL missing
+1619166364672	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilelnTcNH/search.json.mozlz4", (void 0)))
+1619166366549	Marionette	INFO	Listening on port 43615
+1619166366622	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://www.itnow.es/Style%20Library/js/videoHome.js, line 1: ReferenceError: jQuery is not defined
+JavaScript error: http://www.itnow.es/Style%20Library/js/videoHome.js, line 1: ReferenceError: jQuery is not defined
+1619166372755	Marionette	INFO	Stopped listening on port 43615
+JavaScript error: resource://gre/modules/psm/RemoteSecuritySettings.jsm, line 789: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIXPCComponents_Utils.reportError]
+JavaScript error: resource://gre/modules/psm/RemoteSecuritySettings.jsm, line 789: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIXPCComponents_Utils.reportError]
+1619166505611	geckodriver	INFO	Listening on 127.0.0.1:46501
+1619166505621	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileYaXQHm"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libEGL missing
+[GFX1-]: glxtest: No visuals found
+[GFX1-]: glxtest: libEGL missing
+1619166506242	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileYaXQHm/search.json.mozlz4", (void 0)))
+1619166508000	Marionette	INFO	Listening on port 36475
+1619166508067	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://www.itnow.es/Style%20Library/js/videoHome.js, line 1: ReferenceError: jQuery is not defined
+JavaScript error: http://www.itnow.es/Style%20Library/js/videoHome.js, line 1: ReferenceError: jQuery is not defined
+1619166528332	geckodriver	INFO	Listening on 127.0.0.1:52761
+1619166528348	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileA5KzTy"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libEGL missing
+[GFX1-]: glxtest: No visuals found
+[GFX1-]: glxtest: libEGL missing
+1619166529145	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileA5KzTy/search.json.mozlz4", (void 0)))
+1619166530934	Marionette	INFO	Listening on port 40041
+1619166530998	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://www.itnow.es/Style%20Library/js/videoHome.js, line 1: ReferenceError: jQuery is not defined
+JavaScript error: http://www.itnow.es/Style%20Library/js/videoHome.js, line 1: ReferenceError: jQuery is not defined
+1619166537698	Marionette	INFO	Stopped listening on port 40041
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1619166568709	geckodriver	INFO	Listening on 127.0.0.1:35489
+1619166568723	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilezn8ez8"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libEGL missing
+[GFX1-]: glxtest: No visuals found
+[GFX1-]: glxtest: libEGL missing
+1619166569335	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilezn8ez8/search.json.mozlz4", (void 0)))
+1619166571240	Marionette	INFO	Listening on port 44823
+1619166571372	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://www.itnow.es/Style%20Library/js/videoHome.js, line 1: ReferenceError: jQuery is not defined
+JavaScript error: http://www.itnow.es/Style%20Library/js/videoHome.js, line 1: ReferenceError: jQuery is not defined
+1619166578244	Marionette	INFO	Stopped listening on port 44823
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1619166696798	geckodriver	INFO	Listening on 127.0.0.1:49421
+1619166696805	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilePa9DrQ"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libEGL missing
+[GFX1-]: glxtest: No visuals found
+[GFX1-]: glxtest: libEGL missing
+1619166697358	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilePa9DrQ/search.json.mozlz4", (void 0)))
+1619166699327	Marionette	INFO	Listening on port 39261
+1619166699441	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://www.itnow.es/Style%20Library/js/videoHome.js, line 1: ReferenceError: jQuery is not defined
+JavaScript error: http://www.itnow.es/Style%20Library/js/videoHome.js, line 1: ReferenceError: jQuery is not defined
+1619166706432	Marionette	INFO	Stopped listening on port 39261
+JavaScript error: resource://gre/modules/psm/RemoteSecuritySettings.jsm, line 789: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIXPCComponents_Utils.reportError]
+1619167286036	geckodriver	INFO	Listening on 127.0.0.1:47153
+1619167286047	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilexydSpI"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libEGL missing
+[GFX1-]: glxtest: No visuals found
+[GFX1-]: glxtest: libEGL missing
+1619167286782	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilexydSpI/search.json.mozlz4", (void 0)))
+1619167288661	Marionette	INFO	Listening on port 46147
+1619167288781	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://www.itnow.es/Style%20Library/js/videoHome.js, line 1: ReferenceError: jQuery is not defined
+JavaScript error: http://www.itnow.es/Style%20Library/js/videoHome.js, line 1: ReferenceError: jQuery is not defined
+1619167359161	geckodriver	INFO	Listening on 127.0.0.1:60901
+1619167360166	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileEkte7Z"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libEGL missing
+[GFX1-]: glxtest: No visuals found
+[GFX1-]: glxtest: libEGL missing
+1619167360804	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileEkte7Z/search.json.mozlz4", (void 0)))
+1619167362749	Marionette	INFO	Listening on port 35151
+1619167362815	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://www.itnow.es/Style%20Library/js/videoHome.js, line 1: ReferenceError: jQuery is not defined
+JavaScript error: http://www.itnow.es/Style%20Library/js/videoHome.js, line 1: ReferenceError: jQuery is not defined
+1619167390344	geckodriver	INFO	Listening on 127.0.0.1:38407
+1619167390351	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileSbGpJI"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libEGL missing
+[GFX1-]: glxtest: No visuals found
+[GFX1-]: glxtest: libEGL missing
+1619167390985	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileSbGpJI/search.json.mozlz4", (void 0)))
+1619167392915	Marionette	INFO	Listening on port 34991
+1619167392995	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://www.itnow.es/Style%20Library/js/videoHome.js, line 1: ReferenceError: jQuery is not defined
+JavaScript error: http://www.itnow.es/Style%20Library/js/videoHome.js, line 1: ReferenceError: jQuery is not defined
+1619167470818	geckodriver	INFO	Listening on 127.0.0.1:55651
+1619167470825	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilei4EkIV"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libEGL missing
+[GFX1-]: glxtest: No visuals found
+[GFX1-]: glxtest: libEGL missing
+1619167471391	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilei4EkIV/search.json.mozlz4", (void 0)))
+1619167473592	Marionette	INFO	Listening on port 42665
+1619167473662	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://www.itnow.es/Style%20Library/js/videoHome.js, line 1: ReferenceError: jQuery is not defined
+JavaScript error: http://www.itnow.es/Style%20Library/js/videoHome.js, line 1: ReferenceError: jQuery is not defined
+JavaScript error: resource://gre/modules/psm/RemoteSecuritySettings.jsm, line 789: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIXPCComponents_Utils.reportError]
+JavaScript error: resource://gre/modules/psm/RemoteSecuritySettings.jsm, line 789: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIXPCComponents_Utils.reportError]
+1619167644518	geckodriver	INFO	Listening on 127.0.0.1:32845
+1619167644524	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileCDGhIm"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libEGL missing
+[GFX1-]: glxtest: No visuals found
+[GFX1-]: glxtest: libEGL missing
+1619167645157	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileCDGhIm/search.json.mozlz4", (void 0)))
+1619167647007	Marionette	INFO	Listening on port 43657
+1619167647055	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://www.itnow.es/Style%20Library/js/videoHome.js, line 1: ReferenceError: jQuery is not defined
+JavaScript error: http://www.itnow.es/Style%20Library/js/videoHome.js, line 1: ReferenceError: jQuery is not defined
+JavaScript error: resource://gre/modules/psm/RemoteSecuritySettings.jsm, line 789: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIXPCComponents_Utils.reportError]
+JavaScript error: resource://gre/modules/psm/RemoteSecuritySettings.jsm, line 789: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIXPCComponents_Utils.reportError]
+JavaScript error: resource://gre/modules/psm/RemoteSecuritySettings.jsm, line 789: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIXPCComponents_Utils.reportError]

@@ -1,0 +1,118 @@
+Selenium > Automatizar trabajos en un navegador WEB
+
+ Programa python > Selenium  >      Driver      >       Navegador WEB
+                                                     (Puerto de control)
+                                                     
+# 1º Instalar Firefox y las X
+# 2º Arrancar las X
+# 3º Configurar pantalla 
+
+sudo apt-add-repository ppa:mozillateam/firefox-next
+sudo apt-get update
+sudo apt-get install firefox xvfb -y
+Xvfb :10 -ac &
+export DISPLAY=:10
+                       
+4º Instalar selenium para python
+pip3 install selenium
+
+5º Descargar driver para firefox
+wget https://github.com/mozilla/geckodriver/releases/download/v0.29.1/geckodriver-v0.29.1-linux64.tar.gz
+tar -xzvf geckodriver-v0.29.1-linux64.tar.gz
+
+
+
+En un navegador de internet, cuando cargo una pagina web... que ocurre?
+1º Descarga el HTML (fichero)
+2º Se carga en la RAM. Se genera un DOM
+
+ReactJS |
+Angular |   SPAs
+
+Contenedores: Instalaciones /Ejecuciones de software
+
+KO      KO
+100%  No le quedda CPU
+-----------
+App1  App2
+----------
+    SO
+----------
+   hierro
+   
+
+
+
+
+
+
+-----------
+App1 | App2
+-----|----
+SO   | SO
+-----|----
+MV1  | MV2
+----------
+Hipervisor (VMWare, citrix, hyperV, virtualBox)
+----------
+    SO
+----------
+  hierro
+
+
+Poder ejecutar apps de una forma aislada del resto
+
+
+
+
+
+-----------
+App1 | App2
+-----|----
+C1   | C2
+----------
+Ejecutor de contenedores (Docker, podman, containerD, CRIO)
+----------
+    SO      Hay un SO que tiene en su Kernel unas librerias que permiten ejecutar procesos en modo aislado: Linux
+----------
+  hierro
+
+
+Docker funciona en Windows? Si.... siempre y cuando arranque el subsistema linux
+
+
+Imagen de contenedor: Archivo ZIP que contiene un programa YA INSTALADO junto con su configuracion y dependencias
+
+
+echo "Host mi_servidor Hostname 172.17.0.3 User root PubKeyAuthentication yes IdentityFile ~/.ssh/id_rsa">> ~/.ssh/config
+
+echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDYu/9n0W9QynnKXnnNYkdQcLrGc30CMp83kLwB9xSoy2E59jokUo7G1ZAesBKo8QVJ9KO50P6XY27eWONotG93oaQzXlBA63wb4hFM9+nAwM7aF6Y9jnGs6EhQmrye4J9Mx9tDWRwBgavg0zZcLBdz60WSQfTmIpLYrXD0UimG0vw2zydnBLkCgeAw2Z78CrZKMcn0ErKbDETJHd45+ixAWfJisbiINcNJSWdA4o4RIo2qOqp3H3b4ZmkFeHlcTOnQhNS4x6AuGbz5jM9WONg7RO6LXlL6LmlgjseonF0QA68n8I+YQ15SsBQE2uWbzZgwjLYq0gZsTXPmlnJHaS/h ubuntu@ip-172-31-7-110" >> /root/.ssh/authorized_keys
+
+
+platform
+subprocess
+selenium
+fabric >>> Acceder a un remoto via ssh y ejecutar en el comandos
+os
+jinja
+-----------------
+selenium
+testunit
+-----------------
+numpy
+sci-py
+tensorflow
+pandas
+
+
+Quiero un programa que:
+-----------------------
+Leer de una variable de entorno llamada: IMAGEN y de otra llamada VERSION
+los datos de una imagen de contenedor que vamos a descargar.
+Quiero leer de un fichero YAML, un listado de servidores (por ahora vais a poner solo el 172.17.0.2)
+Y los quiero cargar esos servidores
+
+Acceder a cada servidor... que ahora solo tengo 1 via ssh
+Copiarle un archivo docker-compose con los datos leidos de las variaboles de entorno
+Instalarle docker-compose
+Crear un contenedor desde la imagen que me hayan dicho
