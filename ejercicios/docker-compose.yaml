@@ -3,6 +3,6 @@ version: '3'
 services:
     tomcat:
         container_name: mi-tomcat
-        image: {{ IMAGEN }}:{{ VERSION }}
+        image: bitnami/tomcat:8.5.65
         ports:
             - 8080:8080
